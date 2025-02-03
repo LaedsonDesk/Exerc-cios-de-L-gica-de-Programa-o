@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <nav class="navbar__menu">
+            <a class="navbar__menu__link" href="index.html">Home</a>
+            <a class="navbar__menu__link" href="about.html">About</a>
+        </nav>
+    </header>
+    <main class="conteudo-exercicio">
+
+        <h5 class="pergunta-logica">1. Dado o tamanho da base e da altura de um retângulo, calcular a sua área e o seu
+            perímetro.</h5>
+        <div class="informacoes">
+
+            <label for="base">Base</label>
+            <input type="text" id="base">
+            <label for="altura">Altura</label>
+            <input type="text" id="altura">
+        </div>
+        <div class="resolver">
+            <button  onclick="desenhar()">Resolver</button>
+        </div>
+        
+
+        <section class="telas-resultado">
+            <div class="result1">
+                <h5 id="result1">Resultado da Área</h5>
+                <canvas id="meuCanvas" width="500" height="200"></canvas>
+
+            </div>
+            <div class="result1">
+                <h5 id="result2">Resultado do Perímetro</h5>
+                <canvas id="meuCanvas2" width="500" height="200"></canvas>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Laedson &copy;</p>
+    </footer>
+
+
+</body>
+
+</html>

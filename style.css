@@ -1,0 +1,159 @@
+:root {
+    --cor-primaria: #203140;
+    --cor-secundaria: #3A6D8C;
+    --cor-terciaria: #736439;
+    --cor-quaternaria: #BFAE9F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #203140;
+    color: var(--cor-quaternaria);
+}
+
+label {}
+
+input {
+    width: 9em;
+    padding: 0.2em;
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    transition: 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--cor-secundaria);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #244192;
+}
+
+.navbar {
+    padding: 3% 0% 0% 5%;
+}
+
+.navbar__menu {
+    display: flex;
+    gap: 3EM;
+}
+
+.navbar__menu__link {
+    color: beige;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.titulo-apresentacao {
+    margin: 5% 10%;
+}
+
+.subtitulo-apresentacao {
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+
+.gaveta-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 5% 10%;
+}
+
+.link-acesso-exercício {
+    width: 2.25rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    color: azure;
+    background-color: var(--cor-quaternaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+}
+
+.texto-about {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+.imagem {
+    width: 50%;
+}
+
+#imagem-perfil {
+    width: 100%;
+}
+
+.pergunta-logica {
+    margin: 3% 0;
+    font-size: 2rem;
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1%;
+}
+
+.resolver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.telas-resultado {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0 5% 0;
+}
+
+
+.conteudo-exercicio {
+    margin: 3% 10%;
+    font-size: 1.5rem;
+}
+
+.result1 {
+    background-color: #03300b;
+    border: solid 1px;
+    margin: 0 2%;
+    padding: 2%;
+    width: 40%
+}
+
+
+.rodape {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 5EM;
+}
